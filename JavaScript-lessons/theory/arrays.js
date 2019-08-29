@@ -86,18 +86,6 @@ const a = [5,1,2,3,4].sort((a,b)=>b-a).filter((_,i)=> i<3 )
 console.log(a)
 
 
-var res = func1(func2)
-console.log('res=>', res)
-
-function func1(cb){
-    console.log('первая функция')
-    return cb()
-}
-function func2(){
-    console.log('вторая функция')
-    return "ретурн второй фнукции"
-}
-
 /////////
 
 [ a=>a+100 ][0]
@@ -114,13 +102,72 @@ console.log( obj )
 obj['a'](3,4)
 
 
+let allMessages = [
+    {author: "zloy-zloy", text: "А у кого какой мобильный??", edited: true},
+    {author: "zloy-zloy", text: "Я с андроидом. Уже 3 года живет, он самым крепким оказался, пережил 2 утопления.", edited: false},
+    {author: "МамаЗузу", text: "Айфон в свое время успешно сдох при первом же падении на кафельную плитку.", edited: false},
+    {author: "void", text: "У меня андроид. Особенно нравится, что никаких заморочек с айтюнс.", edited: true},
+    {author: "mama", text: "Айфон.", edited: false},
+    {author: "mama", text: "Почему не отвечаешь?", edited: false},
+    {author: "void", text: "Дэвид Хэрман «Сила JavaScript. 68 способов эффективного использования JS».", edited: false},
+    {author: "void", text: "Marijn Haverbeke, Вячеслав Голованов «Выразительный javascript: Введение».", edited: false},
+    {author: "void", text: "Ленюсь.", edited: false},
+    {author: "void", text: "Пока оценивать нечего.", edited: false},
+    {author: "void", text: "Не по-русски как-то получается, хоть и на русском.", edited: false},
+    {author: "ivanov", text: "Чип и Дейл прикольно, играл в детстве.", edited: false},
+    {author: "ivanov", text: "hello, world", edited: true},
+    {author: "void", text: "Сейчас напишу книгу по JS.", edited: false},
+    {author: "ivanov", text: "Спасибо.", edited: true},
+    {author: "ivanov", text: "Смысл такого видео? Все непонятные функции приходится самому смотреть. Надо не так делать. Пишете код - объясняете сразу, что к чему, голосом, ну, или там, текстом хотя бы, хотя лучше голосом.", edited: true},
+    {author: "void", text: "Поделитесь видео-каналами по js.", edited: true},
+    {author: "void", text: "Ничего не понравилось.", edited: true}
+];
 
 
+function messageTracker(counter) {
+  let total = counter.length; // Количество сообщений в чате
+  let edited = 0; // Кол-во отредактированных сообщений
+  let unedited = 0; // Кол-во нередактированных сообщений
+  // Array.prototype.forEach = (element, key, index) => 'ретурним чето'
+  // Array.prototype.sex = function ()
+  counter.forEach( obj => obj.edited ? edited++ : unedited ++)
+  //const oldArr = [1,2,3,4];
+  //const newArr = oldArr.filter(element => element < 3)  
+//edited = counter.filter(obj => obj.edited).length
+//unedited = counter.filter(obj => !obj.edited).length
 
-a()
+     for (let i = 0; i < total; i++) counter[i].edited && i>1 && edited++  || unedited++
+     
+     1 && 0 && 11 && 123 || i--
 
-function a () {
-    b()
+
+  return { total, edited, unedited }
 }
-function b () { }
+
+console.log("Количество сообщений: " + messageTracker(allMessages).total);
+console.log("Отредактированных сообщений: " + messageTracker(allMessages).edited);
+console.log("Нередактированных сообщений: " + messageTracker(allMessages).unedited);
+
+
+//Ложные и правдивые значения
+//Falsy (ложных? лживеньких?) значений ровно 7, их надо знать наизусть: 0, -0 (да, в программировании есть отрицательный ноль), NaN, null, undefined, '' (пустая строка), false. Все остальные значения truthy, в том числе '0' (строка из символа 0). При преобразовании в логический (булев) тип falsy значения преовращаются в false, а все остальные — в true:
+/// https://gist.github.com/codedokode/ce30e7a036f18f416ae0
+
+
+
+
+
+
+
+
+
+
+
+
+// const arr = [3, 4, 2, 1, 5, 2, 1000, 400].sort(function (a, b) { 
+// return b - a; 
+// }).splice(0, 3);
+
+// console.log(arr)
+
 

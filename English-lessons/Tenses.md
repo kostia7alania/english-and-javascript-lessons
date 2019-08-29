@@ -98,3 +98,47 @@ sleep slept slept
 keep kept kept
 leave left left
 go went gone
+
+
+I want to work in US
+I need to speak with him
+I asked him to help me
+I told him to come at 5
+
+We will definitely like to continue working with you
+
+
+verb + ING
+
+enjoy doing something
+I don't mind working on weekends
+I enjoy learning English
+avoid 
+She avoids meeting me
+He stopped smoking
+We finished working at 5
+
+Если после глагола идет предлог - то всегда использзуется IGN - окончание
+
+
+Think about + 
+
+I started thinking about relocating to US
+Think about doing something
+I think about selling my house
+
+forgive for 
+
+She didn't forgive me for cheating on her/failing her
+Look forward to doing something
+I am looking forward to meeting her 
+He worries about failing his exam
+He is working on producing this movie 
+We are interested in working with you
+He believes in winning the lottery
+
+
+
+
+
+
