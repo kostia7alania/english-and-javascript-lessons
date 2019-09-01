@@ -47,3 +47,35 @@ Peter was going to take the exam but he changed his mind.
 I was just going to cross the street when somebody shouted "STOP!".
 I thought it gonna to rain, but then the sun came out
 
+
+
+# ING - после глаголов - Герундий
+I enjoy dancing
+Инфинитив - я хочу пирог. I want to taste
+Герундий - I enjoy eating a pie.
+I expect to finish this project by the end of the month
+I need to speak with you
+
+ Would you mind closing the door
+I don't mind working on weekend.
+Sam suggested going to the movies.
+Suddenly everybody stopped talking.
+There was silence.
+
+I'll do the shopping when I finish cleaning the apartment.
+He tried to avoid answering my question.
+Have you ever considered living in other country.
+When I am on vacation I enjoy not having to get up early # to - infinitive
+
+b) Paula has given up trying to lose weight.
+We have to do smthg  We cant go on living like this.
+Don't keep interrupting me while I'm talking.
+C) I can't imagine George riding a motor bike.
+Sorry to keeping waiting so long.
+That's all right.
+I don't mind being kept waiting.
+d) She admitted having stolen the money.
+She admitted stealing the money.
+I now regret saying it.
+e) She deny denied that she had stolen the money.
+Sam suggested that we go to the movies.

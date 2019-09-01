@@ -23,6 +23,11 @@ export default {
 </script>
 
 <style>
+
+
+
+
+
 #hi-vue-wrapper {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
